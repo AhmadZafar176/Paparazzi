@@ -22,7 +22,7 @@ class QueueProcessor:
         start_time = time.time()
         images = api_gate.generate(payload)
         # Paths
-        frame_path = "./ComfyUI/input/PAPARAZZAI_WATERMARKLOGO (1).png"
+        frame_path = "./ComfyUI/input/PAPARAZZAI_FRAME.png"
         images_folder = "./ComfyUI/output"  # Folder containing your 40 images
         output_folder = "./Generations"       # Folder to save the images with frames
 

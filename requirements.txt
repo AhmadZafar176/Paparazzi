@@ -225,3 +225,4 @@ webcolors
 blend_modes
 wget
 transformers==4.46.1
+color-matcher
